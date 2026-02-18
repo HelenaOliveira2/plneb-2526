@@ -2,5 +2,5 @@
 def minusculas(string):
     return string.lower()
 
-s="Sou a Helena e estou na cadeira de PLN."
+s="HELENA"
 print(minusculas(s))

@@ -2,8 +2,8 @@
 def vogais(string):
     contador=0
     s=string.upper()
-    for letra in s:
-        if letra in ["A","E","I","O","U"]:
+    for caracter in s:
+        if caracter in "AEIOU":
             contador=contador + 1
     return contador
 
