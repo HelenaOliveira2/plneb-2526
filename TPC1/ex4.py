@@ -2,5 +2,5 @@
 def minusculas(string):
     return string.lower()
 
-s="HELENA"
+s="MESTRADO"
 print(minusculas(s))

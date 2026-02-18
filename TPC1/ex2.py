@@ -6,7 +6,7 @@ def contagem(string):
             contador=contador + 1
     return contador
 
-s="Sou a Helena e estou na cadeira de PLN."
+s="Mestrado"
 print(contagem(s))
 
 # ou, utilizando a função count:

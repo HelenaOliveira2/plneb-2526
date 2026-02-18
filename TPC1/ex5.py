@@ -2,5 +2,5 @@
 def maiusculas(string):
     return string.upper()
 
-s="helena"
+s="mestrado"
 print(maiusculas(s))

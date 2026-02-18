@@ -7,5 +7,5 @@ def vogais(string):
             contador=contador + 1
     return contador
 
-s="Sou a Helena e estou na cadeira de PLN."
+s="Mestrado"
 print(vogais(s))
