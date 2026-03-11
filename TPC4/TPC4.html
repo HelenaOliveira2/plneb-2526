@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sunny Haven Villa - Alojamento em Ponte de Lima com piscina privada e natureza.">
+<title>Sunny Haven Villa</title>
+
+<style>
+/* --------------------------- GERAL --------------------------- */
+html{scroll-behavior:smooth;scroll-padding-top:90px;}
+:root{
+  --bg:#F9F8F6;
+  --text:#2C3531;
+  --light:#5A665E;
+  --accent:#C1A57B;
+  --white:#fff;
+  --booking:#003580;
+  --review-bg:#f0f0f0;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+h1,h2,h3,h4{font-family:Georgia, serif;margin-top:0;}
+a{text-decoration:none;color:var(--accent);}
+a:hover{color:var(--text);}
+
+/* --------------------------- HEADER --------------------------- */
+header{
+  text-align:center;
+  padding:20px;
+  background:rgba(249,248,246,.95);
+  position:sticky;
+  top:0;
+  border-bottom:1px solid #eae6df;
+  z-index:1000;
+}
+.brand-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+}
+.site-logo{height:55px;}
+nav ul{
+  list-style:none;
+  padding:0;
+  margin:10px 0 0 0;
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  text-transform:uppercase;
+  font-size:13px;
+}
+nav a{font-weight:bold;color:var(--text);}
+
+/* --------------------------- SLIDER --------------------------- */
+.carousel-container{
+  position:relative;
+  height:70vh;
+  overflow:hidden;
+}
+.slide{
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  transition:opacity .8s;
+}
+.slide.active{opacity:1;}
+.slide-overlay{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,.35);
+  z-index:1;
+}
+.hero-text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  color:white;
+  z-index:2;
+  padding:20px;
+}
+.hero-text h1{font-size:3rem;margin-bottom:10px;color:white;}
+.prev,.next{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:25px;
+  color:white;
+  background:rgba(0,0,0,.5);
+  border:none;
+  padding:15px;
+  cursor:pointer;
+  z-index:3;
+}
+.prev{left:20px;}
+.next{right:20px;}
+
+/* --------------------------- BOTÕES --------------------------- */
+.btn{
+  background:var(--accent);
+  color:white;
+  padding:12px 28px;
+  border:none;
+  cursor:pointer;
+  text-transform:uppercase;
+  font-size:13px;
+  border-radius:4px;
+}
+.btn-outline{
+  background:none;
+  border:1px solid var(--text);
+  color:var(--text);
+}
+.booking-bar{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  background:white;
+  padding:25px;
+  margin:-40px auto 40px auto;
+  max-width:700px;
+  border-radius:5px;
+  box-shadow:0 10px 25px rgba(0,0,0,.05);
+  position:relative;
+  z-index:5;
+}
+
+/* --------------------------- CONTAINER --------------------------- */
+section{
+  padding:80px 20px;
+  position:relative;
+}
+section:nth-of-type(even){background:#f5f5f5;}
+.container{max-width:1100px;margin:auto;text-align:center;}
+.section-title{
+  font-size:2.2rem;
+  margin-bottom:40px;
+  border-bottom:2px solid var(--accent);
+  display:inline-block;
+  padding-bottom:10px;
+}
+
+/* --------------------------- GALERIA --------------------------- */
+/* Galeria de Fotos Visuais */
+.photo-gallery { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; margin-bottom: 60px; 
+}
+
+.photo-gallery img { 
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: 0.3s; 
+    cursor: pointer; 
+}
+       
+.photo-gallery img:hover { 
+    filter: brightness(0.85); 
+    transform: scale(1.01); 
+}
+
+/* --------------------------- COMODIDADES --------------------------- */
+.all-amenities-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+  text-align:left;
+}
+.amenity-category{
+  background:white;
+  padding:25px;
+  border-radius:8px;
+  border-top:4px solid var(--accent);
+}
+.amenity-category h4{margin-bottom:15px;}
+.amenity-category ul{padding:0;list-style:none;}
+.amenity-category li{
+  padding:6px 0;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  border-bottom:1px solid #eee;
+}
+
+/* --------------------------- REGRAS --------------------------- */
+.rules-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+.rule-card{
+  background:white;
+  padding:25px;
+  border-radius:8px;
+  box-shadow:0 5px 15px rgba(0,0,0,.05);
+  border-top:4px solid var(--accent);
+  text-align:left;
+  transition:transform .3s;
+}
+.rule-card:hover{transform:translateY(-5px);}
+.rule-card h4{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.rule-card p{color:var(--light);font-size:14px;}
+
+/* --------------------------- AVALIAÇÕES --------------------------- */
+.reviews-section {
+  background: var(--bg);
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif; 
+}
+
+.reviews-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--text);
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 6px;
+  font-weight: normal;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.review-card {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--light);
+}
+
+.review-score {
+  background: var(--booking);
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.review-title {
+  font-weight: bold;
+  color: var(--text);
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.review-text {
+  margin: 0;
+  color: var(--text);
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  border-top: 1px solid #EAE6DF;
+  padding-top: 10px;
+}
+
+.reviewer-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.reviewer-details {
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: var(--text);
+}
+
+.reviewer-country,
+.review-date {
+  color: var(--light);
+  font-size: 0.8rem;
+}
+
+/* ---------------------------  BOOKING --------------------------- */
+.booking-cta-box {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.booking-score-large {
+  background: var(--booking);
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 18px;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.btn-booking-official {
+  background: var(--booking);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.btn-booking-official:hover {
+  background: #002255;
+}
+/* --------------------------- MAPA --------------------------- */
+.map-wrapper{
+  max-width:900px;
+  margin:auto;
+  height:420px;
+  border-radius:10px;
+  overflow:hidden;
+}
+.map-wrapper iframe{width:100%;height:100%;border:0;}
+
+/* --------------------------- CONTACTO --------------------------- */
+.contact-section{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  margin-top:40px;
+  text-align:left;
+}
+
+/* Caixa do formulário */
+.contact-form{
+  background:#fff;
+  padding:40px;
+  border-radius:10px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* Campos do formulário */
+.contact-form .form-group input,
+.contact-form .form-group textarea{
+  width:100%;
+  padding:12px 15px;
+  border:1px solid #ddd;
+  border-radius:6px;
+  margin-bottom:15px;
+  transition:0.3s;
+}
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus{
+  border-color:var(--accent);
+  outline:none;
+}
+
+/* Botão */
+.contact-form button.btn{
+  width:100%;
+  padding:14px;
+  font-size:1rem;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* Caixa de informação e redes sociais */
+.contact-info{
+  background:#fff;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.06);
+}
+.contact-info h3{
+  margin-bottom:15px;
+  color:var(--accent);
+}
+.contact-info p{
+  margin-bottom:10px;
+  color:var(--text);
+}
+
+/* Redes sociais */
+.social-links{
+  display:flex;
+  gap:15px;
+  margin-top:10px;
+}
+.social-links a{
+  display:inline-block;
+  transition:transform 0.3s;
+}
+.social-links a:hover{
+  transform:scale(1.1);
+}
+.social-icon{
+  width:35px;
+  height:35px;
+}
+
+/* Responsivo */
+@media(max-width:800px){
+  .contact-section{
+    grid-template-columns:1fr;
+  }
+  .contact-form, .contact-info{
+    margin-bottom:20px;
+  }
+}
+
+/* --------------------------- RESPONSIVO --------------------------- */
+@media(max-width:800px){
+  .photo-gallery{grid-template-columns:1fr 1fr;}
+  .contact-section{grid-template-columns:1fr;}
+  .booking-bar{flex-direction:column;margin:20px;}
+}
+@media(max-width:500px){.photo-gallery{grid-template-columns:1fr;}}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand-container">
+    <img src="logo.jpeg" class="site-logo">
+    <h2>Sunny Haven Villa</h2>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#comodidades">Comodidades</a></li>
+      <li><a href="#regras">Regras</a></li>
+      <li><a href="#avaliacoes">Avaliações</a></li>
+      <li><a href="#mapa">Localização</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- --------------------------- SLIDER --------------------------- -->
+<div class="carousel-container">
+  <div class="slide-overlay"></div>
+  <div class="hero-text">
+    <h1>Refúgio no Minho</h1>
+    <p>Ponte de Lima • Natureza • Tranquilidade</p>
+  </div>
+  <button class="prev" onclick="mudarSlide(-1)">❮</button>
+  <button class="next" onclick="mudarSlide(1)">❯</button>
+  <img class="slide active" src="exterior_sol.jpg">
+  <img class="slide" src="sala.jpeg">
+  <img class="slide" src="quarto2.jpeg">
+  <img class="slide" src="exterior_casa.jpeg">
+</div>
+
+<!-- --------------------------- RESERVAS --------------------------- -->
+<div class="booking-bar">
+  <a class="btn" href="https://www.airbnb.pt/rooms/1356341637658734203?_set_bev_on_new_domain=1773244299_EAODFjM2ZlZmQ5M2&set_everest_cookie_on_new_domain=1773244299.EAYTUyNjJjZTZmODkxNz.buaMLP64bSc2VEYjfa7WuozI9VVVSO8MISlI2igx3d4&source_impression_id=p3_1773244300_P3yezCoEn5qw6R0m" target="_blank">Reservar no Airbnb</a>
+  <a class="btn btn-outline" href="https://www.booking.com/hotel/pt/sunny-haven-villa.html" target="_blank">Reservar no Booking</a>
+</div>
+
+<section id="sobre" class="container">
+  <h2 class="section-title">Bem-vindos à <strong>Sunny Haven Villa</strong></h2>
+  <div style="max-width: 800px; margin: auto; text-align: center;">
+    <p style="font-size: 1.2rem; color: var(--light); font-style: italic; margin-bottom: 20px;">
+      "Onde o conforto moderno se encontra com a serenidade da natureza minhota."
+    </p>
+    <p>
+      A <strong>Sunny Haven Villa</strong> é mais do que um alojamento; é um refúgio pensado para quem procura desconectar do stress e reconectar com o que é essencial. Localizada na freguesia de Anais, a poucos minutos da histórica vila de Ponte de Lima, a nossa villa oferece privacidade total com uma arquitetura contemporânea e acabamentos premium.
+    </p>
+    <p>
+      Desfrute de mergulhos refrescantes na nossa piscina privada, relaxe no jardim com vistas panorâmicas sobre as montanhas ou aproveite um final de tarde na churrasqueira. Aqui encontrará a tranquilidade que merece.
+    </p>
+  </div>
+</section>
+
+<!-- --------------------------- GALERIA --------------------------- -->
+<section id="galeria" class="container">
+  <h2 class="section-title">A Nossa Casa</h2>
+  <div class="photo-gallery">
+    <div class="photo-item"><img src="piscina.jpeg" alt="Piscina"></div>
+    <div class="photo-item"><img src="sala.jpeg" alt="Sala"></div>
+    <div class="photo-item"><img src="quarto1.jpeg" alt="Quarto Principal"></div>
+    <div class="photo-item"><img src="cozinha.jpg" alt="Cozinha"></div>
+    <div class="photo-item"><img src="wc.jpeg" alt="Casa de Banho"></div>
+    <div class="photo-item"><img src="sol.jpg" alt="Exterior"></div>
+  </div>
+</section>
+
+<!-- --------------------------- COMODIDADES --------------------------- -->
+<section id="comodidades" class="container">
+<h2 class="section-title">Comodidades</h2>
+<div class="all-amenities-grid">
+  <div class="amenity-category">
+    <h4>Exterior</h4>
+    <ul>
+      <li> Piscina privada</li>
+      <li> Jardim espaçoso</li>
+      <li> Espreguiçadeiras de piscina</li>
+      <li> Tapa-sol</li>
+      <li> Garagem (até 3 veículos)</li>
+      <li> Churrasqueira</li>
+    </ul>
+  </div>
+  <div class="amenity-category">
+    <h4>Cozinha</h4>
+    <ul>
+      <li> Forno e fogão</li>
+      <li> Micro-ondas</li>
+      <li> Frigorífico</li>
+      <li> Máquina de café</li>
+      <li> Máquina de Lavar Loiça </li>
+      <li>Chaleira Elétrica </li>
+    </ul>
+  </div>
+  <div class="amenity-category">
+    <h4>Quartos</h4>
+    <ul>
+      <li>2 quartos</li>
+      <li>2 casas de banho</li>
+      <li> Secador de cabelo</li>
+      <li>Gel de banho e shampoo</li>
+      <li> Roupa de cama e toalhas</li>
+      <li>Armários amplos</li>
+    </ul>
+  </div>
+  <div class="amenity-category">
+    <h4>Conforto & Essenciais</h4>
+    <ul>
+      <li> Wi-Fi</li>
+      <li> Ar condicionado</li>
+      <li> Televisão</li>
+      <li> Aquecimento</li>
+      <li> Máquina de Lavar Roupa</li>
+      <li> Aspirador</li>
+      <li>Alojamento Pet-Friendly</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<!-- --------------------------- REGRAS --------------------------- -->
+<section id="regras" class="container">
+<h2 class="section-title">Regras da Casa</h2>
+<div class="rules-grid">
+  <div class="rule-card"><h4>🕓 Check-in</h4><p>Entrada a partir das 16:00 com apresentação da casa.</p></div>
+  <div class="rule-card"><h4>🕙 Check-out</h4><p>Saída até às 11:00. Fechar portas e janelas.</p></div>
+  <div class="rule-card"><h4>🔇 Silêncio</h4><p>Período de silêncio: 22:00 às 07:00.</p></div>
+  <div class="rule-card"><h4>🚭 Proibições</h4><p>Não fumar dentro da casa nem realizar festas.</p></div>
+  <div class="rule-card"><h4>🐾 Animais</h4><p>Animais de estimação permitidos.</p></div>
+</div>
+</section>
+
+<!-- --------------------------- AVALIAÇÕES --------------------------- -->
+<section id="avaliacoes" class="reviews-section">
+  <h2>O Que Dizem Os Nossos Hóspedes</h2>
+
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-header">
+        <span>Villa com 2 Quartos</span>
+        <div class="review-score">9,0</div>
+      </div>
+      <div class="review-title">Tivemos uma ótima estadia.</div>
+      <div class="review-text">
+        A vila é excelente, está muito bem equipada, a piscina é esplêndida, com uma vista magnífica e a localização é ótima. O anfitrião é muito simpático e está sempre disponível.
+      </div>
+      <div class="reviewer-info">
+        <div class="reviewer-avatar" style="background-color: #F5B041;">C</div>
+        <div class="reviewer-details">
+          <div class="reviewer-name">Christine</div>
+          <div class="reviewer-country">🇫🇷 França</div>
+          <div class="review-date">Agosto, 2025</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <span>Villa com 2 Quartos</span>
+        <div class="review-score">10</div>
+      </div>
+      <div class="review-title">Incrível, casa novinha em folha!</div>
+      <div class="review-text">
+        Tudo! A casa é super bem localizada, bastante grande e o anfitrião é muito simpático!
+      </div>
+      <div class="reviewer-info">
+        <div class="reviewer-avatar" style="background-color: var(--booking);">G</div>
+        <div class="reviewer-details">
+          <div class="reviewer-name">Gilberto</div>
+          <div class="reviewer-country">🇵🇹 Portugal</div>
+          <div class="review-date">Janeiro, 2026</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <span>Villa com 2 Quartos</span>
+        <div class="review-score">9,0</div>
+      </div>
+      <div class="review-title">Soberbo</div>
+      <div class="review-text">
+        Villa nova. Localização tranquila e ótima vista.
+      </div>
+      <div class="reviewer-info">
+        <div class="reviewer-avatar" style="background-color: #F5B041;">O</div>
+        <div class="reviewer-details">
+          <div class="reviewer-name">Olivier</div>
+          <div class="reviewer-country">🇨🇭 Suíça</div>
+          <div class="review-date">Agosto, 2025</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="booking-cta-box">
+    <h3 style="color: var(--booking); margin-bottom: 5px;">Avaliações Reais no Booking.com</h3>
+    <div style="display: flex; align-items: center; gap: 15px; justify-content: center;">
+      <div class="booking-score-large">9,7</div>
+      <div style="text-align: left;">
+        <strong style="font-size: 1.1rem; color: var(--text);">Excecional</strong><br>
+        <span style="font-size: 0.8rem; color: var(--light);">12 comentários verificados</span>
+      </div>
+    </div>
+    <a href="#" class="btn-booking-official" target="_blank">Ler todas as avaliações no Booking</a>
+  </div>
+</section>
+
+<!-- --------------------------- MAPA --------------------------- -->
+<section id="mapa" class="container">
+<h2 class="section-title">Onde Estamos</h2>
+<p style="color:var(--light); margin-bottom:20px;">Rua do Abrunheiro, n°50, Anais, 4990-115 Ponte de Lima</p>
+<div class="map-wrapper">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d848.1682460071709!2d-8.535943129882375!3d41.70387588798929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-PT!2spt!4v1773006328334!5m2!1spt-PT!2spt"></iframe>
+</div>
+</section>
+
+<!-- --------------------------- CONTACTO --------------------------- -->
+<section id="contacto" class="container">
+  <h2 class="section-title">Contacte-nos</h2>
+  <div class="contact-section">
+    
+    <!-- FORMULÁRIO -->
+    <div class="contact-form">
+      <form>
+        <div class="form-group"><input type="text" placeholder="Nome" required></div>
+        <div class="form-group"><input type="email" placeholder="Email" required></div>
+        <div class="form-group"><textarea rows="5" placeholder="Mensagem" required></textarea></div>
+        <button class="btn">Enviar mensagem</button>
+      </form>
+    </div>
+
+    <!-- INFORMAÇÕES E REDES SOCIAIS -->
+    <div class="contact-info">
+      <h3>Informações</h3>
+      <p><strong>Anfitrião:</strong> Paulo Oliveira</p>
+      <p><strong>Telefone:</strong><br>+351 917 588 906</p>
+      <p><strong>Email:</strong><br>sunnyhavenvilla@gmail.com</p>
+
+      <h3>Redes Sociais</h3>
+      <div class="social-links">
+        <a href="https://www.instagram.com/sunnyhaven_villa" target="_blank">
+          <img src="instagram.jpeg" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.facebook.com/sunnyhavenvilla" target="_blank">
+          <img src="facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://wa.me/351917588906" target="_blank">
+          <img src="whatsapp.png" alt="WhatsApp" class="social-icon">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer style="background:#2C3531; color:#fff; padding:40px 20px;">
+  <div style="max-width:1100px; margin:auto; display:flex; flex-direction:column; align-items:center; gap:20px; text-align:center;">
+    <img src="logo.jpeg" alt="Sunny Haven Villa" style="height:60px; margin-bottom:10px;">
+    
+    <h2 style="margin:0;">Sunny Haven Villa</h2>
+    <p style="margin:0;">Ponte de Lima • Portugal</p>    
+    <p style="opacity:0.6; margin:0;">© 2026 Sunny Haven Villa</p>
+  </div>
+</footer>
+
+<script>
+// --------------------------- SLIDER ---------------------------
+let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+function mostrarSlide(n){
+  slides.forEach(s => s.classList.remove("active"));
+  slideIndex += n;
+  if(slideIndex >= slides.length) slideIndex = 0;
+  if(slideIndex < 0) slideIndex = slides.length-1;
+  slides[slideIndex].classList.add("active");
+}
+function mudarSlide(n){mostrarSlide(n);}
+</script>
+
+</body>
+</html>
