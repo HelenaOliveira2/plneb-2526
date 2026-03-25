@@ -1,0 +1,1358 @@
+{
+    "Ilustrações": {
+        "Mary GrandPré": 1
+    },
+    "Mary GrandPré": {
+        "Ilustrações": 1
+    },
+    "Jessica": {
+        "Anne": 1,
+        "Di": 1
+    },
+    "Anne": {
+        "Jessica": 1,
+        "Di": 1
+    },
+    "Di": {
+        "Jessica": 1,
+        "Anne": 1
+    },
+    "Dursley": {
+        "Duda": 5,
+        "Válter": 4,
+        "Hagrid": 4,
+        "Pedro": 3,
+        "Dudley": 1,
+        "Sra. Dursley": 1,
+        "Sr. Dursley": 1,
+        "Petúnia": 1,
+        "Guida": 1,
+        "Deitado": 1,
+        "Dumbledore": 1,
+        "Edwiges": 1,
+        "Voldemort": 1
+    },
+    "Dudley": {
+        "Dursley": 1,
+        "Duda": 1
+    },
+    "Duda": {
+        "Válter": 19,
+        "Petúnia": 12,
+        "Pedro": 10,
+        "Dursley": 5,
+        "Sra. Dursley": 3,
+        "Tia Petúnia": 3,
+        "Sra. Figg": 3,
+        "Sr. Dursley": 2,
+        "Tio Válter": 2,
+        "Dudley": 1,
+        "Pedro Polkiss": 1,
+        "cartola": 1,
+        "Dênis": 1,
+        "Malcolm": 1,
+        "Górdon": 1,
+        "Pai": 1,
+        "Guida": 1,
+        "turma de Duda": 1,
+        "Hagrid": 1,
+        "Vamos": 1,
+        "Rony": 1,
+        "Draco": 1
+    },
+    "Sra. Dursley": {
+        "Sr. Dursley": 4,
+        "Duda": 3,
+        "Dursley": 1,
+        "Sr.": 1
+    },
+    "Sr.": {
+        "Sra. Dursley": 1,
+        "Rony": 1,
+        "Sra. Weasley": 1,
+        "Carlinhos": 1
+    },
+    "Sr. Dursley": {
+        "Sra. Dursley": 4,
+        "Duda": 2,
+        "Dursley": 1
+    },
+    "Suponho": {
+        "Dumbledore": 1
+    },
+    "Dumbledore": {
+        "Hagrid": 6,
+        "Minerva": 4,
+        "Rony": 4,
+        "Você-Sabe-Quem": 3,
+        "Nicolau Flamel": 3,
+        "Prof": 2,
+        "Snape": 2,
+        "Hermione": 2,
+        "Suponho": 1,
+        "casa dos Dursley": 1,
+        "Dursley": 1,
+        "Queriam": 1,
+        "Cornélio Fudge": 1,
+        "Morgana": 1,
+        "Hengisto de Woodcroft": 1,
+        "Alberico Grunnion": 1,
+        "Circe": 1,
+        "Paracelso": 1,
+        "Merlim": 1,
+        "Weasley": 1,
+        "Percy": 1,
+        "Grifinória": 1,
+        "Quirrell": 1,
+        "Malfoy": 1,
+        "Presentes": 1,
+        "Lufa-Lufa": 1,
+        "Sonserina": 1
+    },
+    "Minerva": {
+        "Dumbledore": 4,
+        "Prof": 2,
+        "Snape": 2,
+        "Wood": 2,
+        "Rony": 2,
+        "Professor Dumbledore": 1,
+        "Chapéu Seletor": 1,
+        "Pirraça": 1,
+        "Quirrell": 1,
+        "Malfoy": 1,
+        "Neville": 1
+    },
+    "Lílian": {
+        "Tiago Potter": 2,
+        "Tiago": 1,
+        "Tiago Potter?": 1
+    },
+    "Tiago Potter": {
+        "Lílian": 2
+    },
+    "Hagrid": {
+        "Rony": 12,
+        "Hermione": 9,
+        "Dumbledore": 6,
+        "Snape": 5,
+        "Norberto": 5,
+        "Ronan": 5,
+        "Dursley": 4,
+        "Canino": 3,
+        "Tom": 2,
+        "Madame Malkin": 2,
+        "Hum": 2,
+        "Sr. Olivaras": 2,
+        "Carlinhos": 2,
+        "Neville": 2,
+        "Bobagens": 2,
+        "Malfoy": 2,
+        "Válter Dursley": 1,
+        "Válter": 1,
+        "Petúnia": 1,
+        "Duda": 1,
+        "tempestade": 1,
+        "Achei": 1,
+        "Estalagmite": 1,
+        "Lufa-Lufa": 1,
+        "Sonserina": 1,
+        "Prof": 1,
+        "hera": 1,
+        "Minerva McGonagall": 1,
+        "Draco": 1,
+        "Pensou": 1,
+        "Dino": 1,
+        "Flamel": 1,
+        "Edwiges": 1,
+        "Herbologia": 1,
+        "Pirraça": 1,
+        "Cautela": 1,
+        "Acabavam": 1
+    },
+    "casa dos Dursley": {
+        "Dumbledore": 1,
+        "Folheara": 1,
+        "Snape": 1
+    },
+    "Tiago": {
+        "Lílian": 1
+    },
+    "Professor Dumbledore": {
+        "Minerva": 1
+    },
+    "Válter": {
+        "Duda": 19,
+        "Petúnia": 10,
+        "Dursley": 4,
+        "Guida": 3,
+        "Poderíamos": 1,
+        "Pedro": 1,
+        "Deus": 1,
+        "Endereçaram": 1,
+        "Tio Válter": 1,
+        "Quero": 1,
+        "Sr. H. Potter Quarto 17 Railview Hotel Cokeworth Harry": 1,
+        "Hagrid": 1,
+        "Hum": 1,
+        "Vamos": 1,
+        "Hermione": 1
+    },
+    "Tia Petúnia": {
+        "Duda": 3,
+        "Dudinha": 1,
+        "Tio Válter": 1
+    },
+    "Querido": {
+        "Guida": 1
+    },
+    "Guida": {
+        "Válter": 3,
+        "Querido": 1,
+        "Poderíamos": 1,
+        "Dursley": 1,
+        "Petúnia": 1,
+        "Duda": 1
+    },
+    "Petúnia": {
+        "Duda": 12,
+        "Válter": 10,
+        "Tio Válter": 2,
+        "Pedro Polkiss": 1,
+        "cartola": 1,
+        "Sra. Figg": 1,
+        "Dursley": 1,
+        "Guida": 1,
+        "Entende": 1,
+        "Hagrid": 1,
+        "Edwiges": 1
+    },
+    "Sra. Figg": {
+        "Duda": 3,
+        "Tobias": 1,
+        "Néris": 1,
+        "Seu Patinhas": 1,
+        "Pedro": 1,
+        "Petúnia": 1
+    },
+    "Tobias": {
+        "Sra. Figg": 1,
+        "Néris": 1,
+        "Seu Patinhas": 1
+    },
+    "Néris": {
+        "Sra. Figg": 1,
+        "Tobias": 1,
+        "Seu Patinhas": 1
+    },
+    "Seu Patinhas": {
+        "Sra. Figg": 1,
+        "Tobias": 1,
+        "Néris": 1
+    },
+    "Poderíamos": {
+        "Guida": 1,
+        "Válter": 1
+    },
+    "Pedro Polkiss": {
+        "Petúnia": 1,
+        "Duda": 1
+    },
+    "Pedro": {
+        "Duda": 10,
+        "Dursley": 3,
+        "Sra. Figg": 1,
+        "Válter": 1,
+        "Tio Válter": 1,
+        "Dênis": 1,
+        "Malcolm": 1,
+        "Górdon": 1
+    },
+    "Tio Válter": {
+        "Duda": 2,
+        "Petúnia": 2,
+        "Pedro": 1,
+        "Válter": 1,
+        "Tia Petúnia": 1
+    },
+    "cartola": {
+        "Petúnia": 1,
+        "Duda": 1
+    },
+    "Dênis": {
+        "Pedro": 1,
+        "Malcolm": 1,
+        "Górdon": 1,
+        "Duda": 1
+    },
+    "Malcolm": {
+        "Pedro": 1,
+        "Dênis": 1,
+        "Górdon": 1,
+        "Duda": 1
+    },
+    "Górdon": {
+        "Pedro": 1,
+        "Dênis": 1,
+        "Malcolm": 1,
+        "Duda": 1
+    },
+    "Dudinha": {
+        "Tia Petúnia": 1
+    },
+    "Pai": {
+        "Duda": 1
+    },
+    "Deus": {
+        "Válter": 1
+    },
+    "Endereçaram": {
+        "Válter": 1
+    },
+    "Quero": {
+        "Válter": 1
+    },
+    "Entende": {
+        "Petúnia": 1
+    },
+    "Sr. H. Potter Quarto 17 Railview Hotel Cokeworth Harry": {
+        "Válter": 1
+    },
+    "Deitado": {
+        "Dursley": 1
+    },
+    "Rúbeo Hagrid": {
+        "Guardião das Chaves": 1,
+        "Sonhei": 1
+    },
+    "Guardião das Chaves": {
+        "Rúbeo Hagrid": 1
+    },
+    "Válter Dursley": {
+        "Hagrid": 1
+    },
+    "Alvo Dumbledore": {
+        "Ordem de Merlim": 1,
+        "Bruxo Chefe": 1,
+        "Cacique Supremo": 1
+    },
+    "Ordem de Merlim": {
+        "Alvo Dumbledore": 1,
+        "Bruxo Chefe": 1,
+        "Cacique Supremo": 1
+    },
+    "Bruxo Chefe": {
+        "Alvo Dumbledore": 1,
+        "Ordem de Merlim": 1,
+        "Cacique Supremo": 1
+    },
+    "Cacique Supremo": {
+        "Alvo Dumbledore": 1,
+        "Ordem de Merlim": 1,
+        "Bruxo Chefe": 1
+    },
+    "Tiago Potter?": {
+        "Lílian": 1
+    },
+    "Você-Sabe-Quem": {
+        "Dumbledore": 3
+    },
+    "turma de Duda": {
+        "Duda": 1
+    },
+    "Sonhei": {
+        "Rúbeo Hagrid": 1
+    },
+    "tempestade": {
+        "Hagrid": 1
+    },
+    "Queriam": {
+        "Dumbledore": 1,
+        "Cornélio Fudge": 1
+    },
+    "Cornélio Fudge": {
+        "Queriam": 1,
+        "Dumbledore": 1
+    },
+    "Miranda Goshawk História": {
+        "Batilda Bagshot Teoria": 1,
+        "Adalberto Waffling Guia": 1,
+        "Emerico Switch Mil": 1,
+        "Arsênio Jigger Animais": 1,
+        "Newton Scamander": 1
+    },
+    "Batilda Bagshot Teoria": {
+        "Miranda Goshawk História": 1,
+        "Adalberto Waffling Guia": 1,
+        "Emerico Switch Mil": 1,
+        "Arsênio Jigger Animais": 1,
+        "Newton Scamander": 1
+    },
+    "Adalberto Waffling Guia": {
+        "Miranda Goshawk História": 1,
+        "Batilda Bagshot Teoria": 1,
+        "Emerico Switch Mil": 1,
+        "Arsênio Jigger Animais": 1,
+        "Newton Scamander": 1
+    },
+    "Emerico Switch Mil": {
+        "Miranda Goshawk História": 1,
+        "Batilda Bagshot Teoria": 1,
+        "Adalberto Waffling Guia": 1,
+        "Arsênio Jigger Animais": 1,
+        "Newton Scamander": 1
+    },
+    "Arsênio Jigger Animais": {
+        "Miranda Goshawk História": 1,
+        "Batilda Bagshot Teoria": 1,
+        "Adalberto Waffling Guia": 1,
+        "Emerico Switch Mil": 1,
+        "Newton Scamander": 1
+    },
+    "Newton Scamander": {
+        "Miranda Goshawk História": 1,
+        "Batilda Bagshot Teoria": 1,
+        "Adalberto Waffling Guia": 1,
+        "Emerico Switch Mil": 1,
+        "Arsênio Jigger Animais": 1
+    },
+    "Tom": {
+        "Hagrid": 2,
+        "Valha-me Deus": 1
+    },
+    "Valha-me Deus": {
+        "Tom": 1
+    },
+    "Dóris Crockford": {
+        "Sr. Potter": 1
+    },
+    "Sr. Potter": {
+        "Dóris Crockford": 1,
+        "Olivaras": 1,
+        "Certo": 1
+    },
+    "Diggle": {
+        "Dédalo Diggle": 1
+    },
+    "Dédalo Diggle": {
+        "Diggle": 1
+    },
+    "Achei": {
+        "Hagrid": 1
+    },
+    "Estalagmite": {
+        "Hagrid": 1
+    },
+    "Madame Malkin": {
+        "Hagrid": 2
+    },
+    "Sonserina e": {
+        "Lufa-Lufa": 1
+    },
+    "Lufa-Lufa": {
+        "Sonserina": 5,
+        "Sonserina e": 1,
+        "Hagrid": 1,
+        "Ana": 1,
+        "Rony": 1,
+        "Snape": 1,
+        "Dumbledore": 1
+    },
+    "Sonserina": {
+        "Lufa-Lufa": 5,
+        "Snape": 2,
+        "Draco": 2,
+        "Hagrid": 1,
+        "Mila Bulstrode": 1,
+        "“Sonserina": 1,
+        "Rony": 1,
+        "Percy Weasley": 1,
+        "Blás Zabini": 1,
+        "Quirrell": 1,
+        "Malfoy": 1,
+        "Pansy Parkinson": 1,
+        "Marcos Flint": 1,
+        "Grifinória": 1,
+        "Olívio": 1,
+        "Katie Bell de Grifinória": 1,
+        "Adriano Pucey": 1,
+        "Fred": 1,
+        "Jorge Weasley": 1,
+        "Johnson": 1,
+        "Angelina": 1,
+        "Terêncio Higgs": 1,
+        "Bell": 1,
+        "Aborrecido": 1,
+        "Dumbledore": 1
+    },
+    "Prof": {
+        "Minerva": 2,
+        "Dumbledore": 2,
+        "Hagrid": 1,
+        "Hermione": 1,
+        "Snape": 1,
+        "Rony": 1,
+        "Senhor": 1
+    },
+    "Hum": {
+        "Hagrid": 2,
+        "Sr. Olivaras": 1,
+        "Válter": 1
+    },
+    "Sr. Olivaras": {
+        "Hagrid": 2,
+        "Hum": 1,
+        "Quirrell": 1
+    },
+    "Olivaras": {
+        "Sr. Potter": 1
+    },
+    "Certo": {
+        "Sr. Potter": 1,
+        "Rony": 1,
+        "Olívio": 1
+    },
+    "Quirrell": {
+        "Snape": 6,
+        "Voldemort": 5,
+        "Weasley": 2,
+        "Fofo": 2,
+        "Sr. Olivaras": 1,
+        "Sonserina": 1,
+        "Simas Finnigan": 1,
+        "Minerva": 1,
+        "Norberto": 1,
+        "Rony": 1,
+        "Dumbledore": 1,
+        "gargalhadinha tremida": 1,
+        "Lorde Voldemort": 1,
+        "Hermione": 1
+    },
+    "Edwiges": {
+        "Petúnia": 1,
+        "Dursley": 1,
+        "Hagrid": 1
+    },
+    "Vamos": {
+        "Duda": 1,
+        "Válter": 1
+    },
+    "Fred": {
+        "Jorge": 9,
+        "Jorge Weasley": 5,
+        "Olívio": 2,
+        "Snape": 1,
+        "Grifinória": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Johnson": 1,
+        "Angelina": 1,
+        "J.": 1,
+        "Percy": 1
+    },
+    "Jorge": {
+        "Fred": 9,
+        "Desculpe": 1,
+        "Snape": 1,
+        "J.": 1,
+        "Percy": 1
+    },
+    "Desculpe": {
+        "Jorge": 1,
+        "Sanguinidade": 1,
+        "Sr. Barão": 1
+    },
+    "Rony": {
+        "Hermione": 68,
+        "Hagrid": 12,
+        "Draco": 11,
+        "Neville": 11,
+        "Snape": 9,
+        "Goyle": 4,
+        "Carlinhos": 4,
+        "Flamel": 4,
+        "Dumbledore": 4,
+        "Perebas": 3,
+        "Crabbe": 3,
+        "Dino": 3,
+        "Tchau": 2,
+        "Minerva": 2,
+        "Herbologia": 2,
+        "Malfoy": 2,
+        "Certo": 1,
+        "Duda": 1,
+        "Mádi Brocklehurst": 1,
+        "Lilá Brown": 1,
+        "Lisa Turpin": 1,
+        "Corvinal": 1,
+        "Percy Weasley": 1,
+        "Blás Zabini": 1,
+        "Sonserina": 1,
+        "Canino": 1,
+        "Gringotes": 1,
+        "Dino Thomas": 1,
+        "Minerva McGonagall Harry": 1,
+        "Flitwick": 1,
+        "Hermione Granger": 1,
+        "Parvati": 1,
+        "Lilá": 1,
+        "Lufa-Lufa": 1,
+        "Percy": 1,
+        "barão Sangrento": 1,
+        "Simas": 1,
+        "Sr.": 1,
+        "Sra. Weasley": 1,
+        "Prof": 1,
+        "Madame Pince": 1,
+        "Madame Norr-ra": 1,
+        "Quirrell": 1,
+        "Madame Pomfrey": 1,
+        "Rúbeo": 1,
+        "Voldemort": 1,
+        "Lino Jordan": 1,
+        "Gina Weasley": 1
+    },
+    "Jorge Weasley": {
+        "Fred": 5,
+        "Harry ouvira Fred": 1,
+        "Grifinória": 1,
+        "Olívio": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Johnson": 1,
+        "Angelina": 1,
+        "Snape": 1
+    },
+    "Tchau": {
+        "Rony": 2
+    },
+    "Gui": {
+        "Carlinhos": 4,
+        "Percy": 1
+    },
+    "Carlinhos": {
+        "Gui": 4,
+        "Rony": 4,
+        "Hagrid": 2,
+        "Norberto": 2,
+        "Percy": 1,
+        "Sr.": 1,
+        "Sra. Weasley": 1,
+        "Malfoy": 1
+    },
+    "Percy": {
+        "Pirraça": 2,
+        "Gui": 1,
+        "Carlinhos": 1,
+        "Perebas": 1,
+        "Monitor": 1,
+        "Weasley": 1,
+        "Hermione": 1,
+        "Dumbledore": 1,
+        "Grifinória": 1,
+        "Rony": 1,
+        "Snape": 1,
+        "Suspeitou": 1,
+        "Fred": 1,
+        "Jorge": 1
+    },
+    "Perebas": {
+        "Rony": 3,
+        "Goyle": 2,
+        "Percy": 1,
+        "Crabbe": 1,
+        "Draco": 1
+    },
+    "Rúbeo": {
+        "Voldemort": 3,
+        "Hermione": 2,
+        "Snape": 2,
+        "Weasley": 1,
+        "Norberto": 1,
+        "Rony": 1,
+        "Fofo": 1
+    },
+    "Voldemort": {
+        "Snape": 5,
+        "Quirrell": 5,
+        "Rúbeo": 3,
+        "Rony": 1,
+        "Fofo": 1,
+        "Dursley": 1
+    },
+    "Agripa": {
+        "Ptolomeu": 1
+    },
+    "Ptolomeu": {
+        "Agripa": 1
+    },
+    "Nicolau Flamel": {
+        "Dumbledore": 3,
+        "Hermione": 1,
+        "CAPÍTULO TREZE": 1
+    },
+    "Morgana": {
+        "Dumbledore": 1,
+        "Hengisto de Woodcroft": 1,
+        "Alberico Grunnion": 1,
+        "Circe": 1,
+        "Paracelso": 1,
+        "Merlim": 1
+    },
+    "Hengisto de Woodcroft": {
+        "Dumbledore": 1,
+        "Morgana": 1,
+        "Alberico Grunnion": 1,
+        "Circe": 1,
+        "Paracelso": 1,
+        "Merlim": 1
+    },
+    "Alberico Grunnion": {
+        "Dumbledore": 1,
+        "Morgana": 1,
+        "Hengisto de Woodcroft": 1,
+        "Circe": 1,
+        "Paracelso": 1,
+        "Merlim": 1
+    },
+    "Circe": {
+        "Dumbledore": 1,
+        "Morgana": 1,
+        "Hengisto de Woodcroft": 1,
+        "Alberico Grunnion": 1,
+        "Paracelso": 1,
+        "Merlim": 1
+    },
+    "Paracelso": {
+        "Dumbledore": 1,
+        "Morgana": 1,
+        "Hengisto de Woodcroft": 1,
+        "Alberico Grunnion": 1,
+        "Circe": 1,
+        "Merlim": 1
+    },
+    "Merlim": {
+        "Dumbledore": 1,
+        "Morgana": 1,
+        "Hengisto de Woodcroft": 1,
+        "Alberico Grunnion": 1,
+        "Circe": 1,
+        "Paracelso": 1
+    },
+    "Neville": {
+        "Hermione": 13,
+        "Rony": 11,
+        "Draco": 7,
+        "Malfoy": 6,
+        "Hermione Granger": 3,
+        "Simas": 3,
+        "Madame Hooch": 3,
+        "Dino": 2,
+        "Hagrid": 2,
+        "Snape": 2,
+        "Crabbe": 2,
+        "Goyle": 2,
+        "Canino": 2,
+        "Morag MacDougal": 1,
+        "Pirraça": 1,
+        "Flitwick": 1,
+        "Simas Finnigan": 1,
+        "Minerva": 1,
+        "Hagrid traia Dumbledore": 1,
+        "Herbologia": 1,
+        "Fred Weasley": 1
+    },
+    "Hermione Granger": {
+        "Neville": 3,
+        "Rony": 1,
+        "Snape": 1
+    },
+    "Crabbe": {
+        "Goyle": 18,
+        "Draco": 12,
+        "Rony": 3,
+        "Neville": 2,
+        "Perebas": 1,
+        "Draco Malfoy": 1,
+        "Malfoy": 1,
+        "Hermione": 1,
+        "Snape": 1
+    },
+    "Goyle": {
+        "Crabbe": 18,
+        "Draco": 11,
+        "Rony": 4,
+        "Perebas": 2,
+        "Neville": 2,
+        "Draco Malfoy": 1,
+        "Malfoy": 1,
+        "Hermione": 1,
+        "Snape": 1
+    },
+    "Weasley": {
+        "Quirrell": 2,
+        "Lino Jordan": 2,
+        "Rúbeo": 1,
+        "Percy": 1,
+        "Monitor": 1,
+        "Dumbledore": 1,
+        "Pucey": 1,
+        "Bell": 1,
+        "Adriano Pucey": 1,
+        "Olívio": 1,
+        "Longbottom": 1
+    },
+    "Draco": {
+        "Crabbe": 12,
+        "Goyle": 11,
+        "Rony": 11,
+        "Neville": 7,
+        "Snape": 5,
+        "Hermione": 3,
+        "Sonserina": 2,
+        "Perebas": 1,
+        "Duda": 1,
+        "Hagrid": 1,
+        "Parvati Patil": 1,
+        "Sr. Weasley": 1,
+        "Flitwick": 1
+    },
+    "Hermione": {
+        "Rony": 68,
+        "Neville": 13,
+        "Hagrid": 9,
+        "Snape": 8,
+        "Draco": 3,
+        "Norberto": 3,
+        "Mulher Gorda": 2,
+        "Parvati": 2,
+        "Rúbeo": 2,
+        "Herbologia": 2,
+        "Malfoy": 2,
+        "Dumbledore": 2,
+        "Percy": 1,
+        "bezoar": 1,
+        "Lilá": 1,
+        "Simas": 1,
+        "Dino": 1,
+        "Prof": 1,
+        "Nicolau Flamel": 1,
+        "Madame Pince": 1,
+        "Flamel": 1,
+        "Finja": 1,
+        "Crabbe": 1,
+        "Goyle": 1,
+        "Canino": 1,
+        "Ronan": 1,
+        "Acabavam": 1,
+        "Fofo": 1,
+        "Alohomora": 1,
+        "Quirrell": 1,
+        "Válter": 1
+    },
+    "hera": {
+        "Hagrid": 1
+    },
+    "Minerva McGonagall": {
+        "Hagrid": 1
+    },
+    "Ana": {
+        "Lufa-Lufa": 1,
+        "Susana": 1
+    },
+    "Susana": {
+        "Ana": 1
+    },
+    "Mádi Brocklehurst": {
+        "Lilá Brown": 1,
+        "Rony": 1
+    },
+    "Lilá Brown": {
+        "Mádi Brocklehurst": 1,
+        "Rony": 1
+    },
+    "Mila Bulstrode": {
+        "Sonserina": 1
+    },
+    "Morag MacDougal": {
+        "Neville": 1
+    },
+    "Moon": {
+        "Nott...": 1,
+        "Parkinson": 1,
+        "Perks": 1,
+        "Sara": 1
+    },
+    "Nott...": {
+        "Moon": 1,
+        "Parkinson": 1,
+        "Perks": 1,
+        "Sara": 1
+    },
+    "Parkinson": {
+        "Moon": 1,
+        "Nott...": 1,
+        "Perks": 1,
+        "Sara": 1
+    },
+    "Perks": {
+        "Moon": 1,
+        "Nott...": 1,
+        "Parkinson": 1,
+        "Sara": 1
+    },
+    "Sara": {
+        "Moon": 1,
+        "Nott...": 1,
+        "Parkinson": 1,
+        "Perks": 1
+    },
+    "“Sonserina": {
+        "Sonserina": 1
+    },
+    "Monitor": {
+        "Percy": 1,
+        "Weasley": 1
+    },
+    "Lisa Turpin": {
+        "Corvinal": 1,
+        "Rony": 1
+    },
+    "Corvinal": {
+        "Lisa Turpin": 1,
+        "Rony": 1
+    },
+    "Percy Weasley": {
+        "Rony": 1,
+        "Blás Zabini": 1,
+        "Sonserina": 1
+    },
+    "Blás Zabini": {
+        "Rony": 1,
+        "Percy Weasley": 1,
+        "Sonserina": 1
+    },
+    "Chapéu Seletor": {
+        "Minerva": 1
+    },
+    "Nicholas de Mimsy": {
+        "Simas Finnigan": 1
+    },
+    "Simas Finnigan": {
+        "Nicholas de Mimsy": 1,
+        "Quirrell": 1,
+        "Neville": 1
+    },
+    "Algi": {
+        "tiaavó Enid": 1
+    },
+    "tiaavó Enid": {
+        "Algi": 1
+    },
+    "Grifinória": {
+        "Snape": 4,
+        "Percy": 1,
+        "Olívio": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Fred": 1,
+        "Jorge Weasley": 1,
+        "Johnson": 1,
+        "Angelina": 1,
+        "Spinnet": 1,
+        "Dumbledore": 1
+    },
+    "Pirraça": {
+        "Percy": 2,
+        "Neville": 1,
+        "Minerva": 1,
+        "Hagrid": 1,
+        "barão Sangrento": 1
+    },
+    "Malfoy": {
+        "Neville": 6,
+        "Canino": 6,
+        "Norberto": 3,
+        "Snape": 2,
+        "Rony": 2,
+        "Hermione": 2,
+        "Hagrid": 2,
+        "Sonserina": 1,
+        "Crabbe": 1,
+        "Goyle": 1,
+        "Dracos": 1,
+        "Dumbledore": 1,
+        "Carlinhos": 1,
+        "Minerva": 1
+    },
+    "Snape": {
+        "Rony": 9,
+        "Hermione": 8,
+        "Quirrell": 6,
+        "Hagrid": 5,
+        "Draco": 5,
+        "Voldemort": 5,
+        "Grifinória": 4,
+        "Fofo": 3,
+        "Malfoy": 2,
+        "Sonserina": 2,
+        "Minerva": 2,
+        "Neville": 2,
+        "Dumbledore": 2,
+        "Rúbeo": 2,
+        "Folheara": 1,
+        "casa dos Dursley": 1,
+        "Simas": 1,
+        "Fred": 1,
+        "Jorge": 1,
+        "Feitiça": 1,
+        "Morto-Vivo": 1,
+        "Percy": 1,
+        "Prof": 1,
+        "Flamel": 1,
+        "Madame Nor-r-ra": 1,
+        "Lufa-Lufa": 1,
+        "Jorge Weasley": 1,
+        "Crabbe": 1,
+        "Goyle": 1,
+        "Mulher Gorda": 1,
+        "Flitwick": 1,
+        "Hermione Granger": 1
+    },
+    "Binns": {
+        "Emerico": 1,
+        "Urico": 1
+    },
+    "Emerico": {
+        "Binns": 1,
+        "Urico": 1
+    },
+    "Urico": {
+        "Binns": 1,
+        "Emerico": 1
+    },
+    "Draco Malfoy": {
+        "Crabbe": 1,
+        "Goyle": 1
+    },
+    "bezoar": {
+        "Hermione": 1
+    },
+    "Folheara": {
+        "casa dos Dursley": 1,
+        "Snape": 1
+    },
+    "Simas": {
+        "Neville": 3,
+        "Dino": 2,
+        "Snape": 1,
+        "Rony": 1,
+        "Hermione": 1
+    },
+    "Canino": {
+        "Malfoy": 6,
+        "Hagrid": 3,
+        "Neville": 2,
+        "Rony": 1,
+        "Hermione": 1
+    },
+    "Gringotes": {
+        "Rony": 1
+    },
+    "Dino Thomas": {
+        "Rony": 1
+    },
+    "Dino": {
+        "Rony": 3,
+        "Simas": 2,
+        "Neville": 2,
+        "Hermione": 1,
+        "Hagrid": 1
+    },
+    "Harry ouvira Fred": {
+        "Jorge Weasley": 1
+    },
+    "Madame Hooch": {
+        "Neville": 3
+    },
+    "Parvati Patil": {
+        "Draco": 1
+    },
+    "Pansy Parkinson": {
+        "Sonserina": 1
+    },
+    "Sr. Weasley": {
+        "Draco": 1
+    },
+    "Pensou": {
+        "Hagrid": 1
+    },
+    "Wood": {
+        "Minerva": 2,
+        "Flitwick": 1
+    },
+    "Flitwick": {
+        "Wood": 1,
+        "Rony": 1,
+        "Draco": 1,
+        "Neville": 1,
+        "Snape": 1
+    },
+    "Mulher Gorda": {
+        "Hermione": 2,
+        "Snape": 1
+    },
+    "Feitiça": {
+        "Morto-Vivo": 1,
+        "Snape": 1
+    },
+    "Morto-Vivo": {
+        "Feitiça": 1,
+        "Snape": 1
+    },
+    "Minerva McGonagall Harry": {
+        "Rony": 1
+    },
+    "Olívio": {
+        "Fred": 2,
+        "Certo": 1,
+        "Grifinória": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Jorge Weasley": 1,
+        "Johnson": 1,
+        "Angelina": 1,
+        "Weasley": 1
+    },
+    "Parvati": {
+        "Hermione": 2,
+        "Rony": 1,
+        "Lilá": 1
+    },
+    "Lilá": {
+        "Rony": 1,
+        "Parvati": 1,
+        "Hermione": 1
+    },
+    "barão Sangrento": {
+        "Rony": 1,
+        "Pirraça": 1
+    },
+    "Marcos Flint": {
+        "Sonserina": 1
+    },
+    "Lino Jordan": {
+        "Weasley": 2,
+        "Rony": 1
+    },
+    "Alícia Spinnet": {
+        "Olívio Wood": 1,
+        "Johnson": 1
+    },
+    "Olívio Wood": {
+        "Alícia Spinnet": 1,
+        "Johnson": 1
+    },
+    "Johnson": {
+        "Alícia Spinnet": 1,
+        "Olívio Wood": 1,
+        "Grifinória": 1,
+        "Olívio": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Fred": 1,
+        "Jorge Weasley": 1,
+        "Angelina": 1
+    },
+    "Katie Bell de Grifinória": {
+        "Grifinória": 1,
+        "Olívio": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Fred": 1,
+        "Jorge Weasley": 1,
+        "Johnson": 1,
+        "Angelina": 1
+    },
+    "Adriano Pucey": {
+        "Grifinória": 1,
+        "Olívio": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Fred": 1,
+        "Jorge Weasley": 1,
+        "Johnson": 1,
+        "Angelina": 1,
+        "Pucey": 1,
+        "Weasley": 1,
+        "Bell": 1
+    },
+    "Angelina": {
+        "Grifinória": 1,
+        "Olívio": 1,
+        "Katie Bell de Grifinória": 1,
+        "Sonserina": 1,
+        "Adriano Pucey": 1,
+        "Fred": 1,
+        "Jorge Weasley": 1,
+        "Johnson": 1
+    },
+    "Pucey": {
+        "Weasley": 1,
+        "Bell": 1,
+        "Adriano Pucey": 1
+    },
+    "Bell": {
+        "Pucey": 1,
+        "Weasley": 1,
+        "Adriano Pucey": 1,
+        "Sonserina": 1
+    },
+    "Terêncio Higgs": {
+        "Sonserina": 1
+    },
+    "Spinnet": {
+        "Grifinória": 1
+    },
+    "Bobagens": {
+        "Hagrid": 2
+    },
+    "Aborrecido": {
+        "Sonserina": 1
+    },
+    "Sra. Weasley": {
+        "Rony": 1,
+        "Sr.": 1,
+        "Carlinhos": 1
+    },
+    "Flamel": {
+        "Rony": 4,
+        "Hagrid": 1,
+        "Snape": 1,
+        "Hermione": 1,
+        "Madame Pince": 1
+    },
+    "Madame Pince": {
+        "Rony": 1,
+        "Hermione": 1,
+        "Flamel": 1
+    },
+    "J.": {
+        "Fred": 1,
+        "Jorge": 1
+    },
+    "Suspeitou": {
+        "Percy": 1
+    },
+    "Madame Norr-ra": {
+        "Rony": 1
+    },
+    "Madame Nor-r-ra": {
+        "Snape": 1
+    },
+    "Senhor": {
+        "Prof": 1
+    },
+    "CAPÍTULO TREZE": {
+        "Nicolau Flamel": 1
+    },
+    "Finja": {
+        "Hermione": 1
+    },
+    "Sr. Flamel": {
+        "Perenelle": 1
+    },
+    "Perenelle": {
+        "Sr. Flamel": 1,
+        "Nicolau": 1
+    },
+    "Dracos": {
+        "Malfoy": 1
+    },
+    "Longbottom": {
+        "Weasley": 1
+    },
+    "Fofo": {
+        "Snape": 3,
+        "Quirrell": 2,
+        "Rúbeo": 1,
+        "Voldemort": 1,
+        "Hermione": 1
+    },
+    "Norberto": {
+        "Hagrid": 5,
+        "Malfoy": 3,
+        "Hermione": 3,
+        "Carlinhos": 2,
+        "Quirrell": 1,
+        "Rúbeo": 1
+    },
+    "Herbologia": {
+        "Rony": 2,
+        "Hermione": 2,
+        "Hagrid": 1,
+        "Neville": 1
+    },
+    "Madame Pomfrey": {
+        "Rony": 1
+    },
+    "Ronan": {
+        "Hagrid": 5,
+        "Cautela": 1,
+        "Hermione": 1,
+        "Agouro": 1
+    },
+    "Cautela": {
+        "Ronan": 1,
+        "Hagrid": 1
+    },
+    "Acabavam": {
+        "Hermione": 1,
+        "Hagrid": 1
+    },
+    "Agouro": {
+        "Ronan": 1
+    },
+    "Hagrid traia Dumbledore": {
+        "Neville": 1
+    },
+    "Sanguinidade": {
+        "Desculpe": 1,
+        "Sr. Barão": 1
+    },
+    "Sr. Barão": {
+        "Desculpe": 1,
+        "Sanguinidade": 1
+    },
+    "Alohomora": {
+        "Hermione": 1
+    },
+    "gargalhadinha tremida": {
+        "Quirrell": 1
+    },
+    "Lorde Voldemort": {
+        "Quirrell": 1
+    },
+    "Presentes": {
+        "Dumbledore": 1
+    },
+    "Sr. Ronald Weasley": {
+        "Srta": 1
+    },
+    "Srta": {
+        "Sr. Ronald Weasley": 1
+    },
+    "Nicolau": {
+        "Perenelle": 1
+    },
+    "Fred Weasley": {
+        "Neville": 1
+    },
+    "Gina Weasley": {
+        "Rony": 1
+    }
+}
