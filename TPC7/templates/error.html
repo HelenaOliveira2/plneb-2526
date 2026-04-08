@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+    <title>Erro - Dicionário Médico</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="container text-center py-5 mt-4 mb-5" style="max-width: 650px;">
+
+    <div class="text-danger mb-4 opacity-75">
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-journal-x" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M6.146 6.146a.5.5 0 0 1 .708 0L8 7.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 8l1.147 1.146a.5.5 0 0 1-.708.708L8 8.707 6.854 9.854a.5.5 0 0 1-.708-.708L7.293 8 6.146 6.854a.5.5 0 0 1 0-.708z"/>
+          <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+          <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+        </svg>
+    </div>
+
+    <h1 class="display-5 fw-bold text-dark mb-3">Ops!</h1>
+    <p class="lead text-danger mb-5">{{ erro }}</p>
+
+    <div class="bg-light p-4 p-md-5 rounded-4 mb-5 border shadow-sm">
+        <p class="text-muted fw-bold text-uppercase mb-4">Tente pesquisar outro termo:</p>
+        
+        <form action="/conceitos" method="get" class="mx-auto" style="max-width: 450px;">
+          <div class="input-group input-group-lg shadow-sm border rounded-pill overflow-hidden">
+            <input type="text" name="q" class="form-control border-0 px-4 fs-6" placeholder="Ex: Cefaleia, Diabetes..." required>
+            <button class="btn btn-primary px-4 fw-bold fs-6" type="submit">Pesquisar</button>
+          </div>
+        </form>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+        <a href="/conceitos" class="btn btn-outline-primary rounded-pill px-5 py-2 fw-semibold">
+            Ver Índice A-Z
+        </a>
+        <a href="/" class="btn btn-outline-secondary rounded-pill px-5 py-2 fw-semibold">
+            Página Inicial
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}
