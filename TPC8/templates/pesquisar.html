@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+    <title> Pesquisar </title>
+{% endblock %}
+
+{% block body %}
+    <h1 class="mb-4">Pesquisa de Conceitos</h1>
+
+    <form action="/pesquisar" method="GET" class="card p-4 shadow-sm mb-5">
+        <div class="mb-3">
+            <label for="termo" class="form-label">O que procura?</label>
+            <input type="text" class="form-control" id="termo" name="termo" value="{{ termo }}" required>
+        </div>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="exata" name="exata">
+            <label class="form-check-label" for="exata">
+                Mostrar apenas a palavra exata
+            </label>
+        </div>
+
+        <div class="form-check mb-4">
+            <input class="form-check-input" type="checkbox" id="maiusculas" name="maiusculas">
+            <label class="form-check-label" for="maiusculas">
+                Distinguir Maiúsculas de Minúsculas
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Pesquisar</button>
+    </form>
+
+    {% if termo %}
+        <h2>Resultados para "{{ termo }}":</h2>
+        
+        {% if resultados %}
+            <ul class="list-group mt-3">
+                {% for desig, desc in resultados.items() %}
+                    <li class="list-group-item">
+                        <span class="text-primary">{{ desig | safe }}</span> - {{ desc | safe }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <div class="alert alert-warning mt-3" role="alert">
+                Não foram encontrados resultados para a sua pesquisa.
+            </div>
+        {% endif %}
+    {% endif %}
+
+{% endblock %}
