@@ -1,4 +1,4 @@
-# TPC9 - Mapeamento Semântico do Mundo Bruxo (Word2Vec)
+# TPC9 
 
 Este repositório contém a criação e análise de *Word Embeddings* para o universo de Harry Potter, utilizando os textos originais dos dois primeiros livros ("A Pedra Filosofal" e "A Câmara Secreta").
 
