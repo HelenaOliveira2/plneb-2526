@@ -4,13 +4,12 @@ Este repositório contém o desenvolvimento e treino de um modelo de Reconhecime
 
 ## Contexto e Pré-processamento
 
-A fase inicial do projeto focou-se na preparação e exploração dos dados:
-- Foi utilizado o dataset `lfcc/portuguese_ner` disponível no Hugging Face, que contém tokens e etiquetas NER específicas para o português.
-- Utilizou-se o modelo e o respetivo *tokenizer* `neuralmind/bert-base-portuguese-cased`, um modelo BERT treinado especificamente para o português.
-- **Pré-processamento:** Como o *tokenizer* do BERT divide palavras em pedaços mais pequenos (sub-palavras), foi necessário reajustar os dados. Para isso, implementaram-se duas funções principais:
-  - `align_labels_with_tokens()`: Função responsável por alinhar as etiquetas (labels) originais com os novos sub-tokens criados. Atribui o valor `-100` a tokens especiais (como `[CLS]` e `[SEP]`) e a pedaços de palavras secundários, garantindo que o modelo os ignora durante a aprendizagem e avalia apenas a primeira parte da palavra.
-  - `tokenize_dataset()`: Função que percorre todo o dataset, aplica o *tokenizer* (com um limite máximo de 512 tokens para evitar erros de memória) e junta as novas etiquetas alinhadas a cada frase.
-No final deste processo, as listas processadas foram convertidas novamente para o formato `Dataset` da Hugging Face para estarem prontas para a fase de treino.
+A fase inicial focou-se na preparação dos dados para o modelo:
+- Utilizou-se o dataset `lfcc/portuguese_ner` e o modelo `neuralmind/bert-base-portuguese-cased` (um BERT otimizado para português).
+- Como o *tokenizer* do BERT divide palavras em sub-palavras, os dados foram reajustados através de duas funções:
+  - `align_labels_with_tokens()`: Alinha as etiquetas originais com os novos sub-tokens, usando o valor `-100` nos tokens especiais e secundários para que o modelo os ignore durante o treino.
+  - `tokenize_dataset()`: Aplica a tokenização a todo o dataset (com limite de 512 tokens por frase) e integra as etiquetas alinhadas.
+No final, os dados processados foram reconvertidos para o formato `Dataset` da Hugging Face.
 
 ## Desenvolvimento
 
